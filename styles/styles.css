@@ -1,0 +1,162 @@
+body{
+    padding: 5em;
+    background-color: hsl(30, 54%, 90%);
+}
+
+p{
+    font-family: 'Outfit', serif;
+    font-size: 16px;
+}
+
+#content{
+    margin: 0 0 1em 0;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    padding: 3.5em;
+}
+
+#content #omelette{
+    margin: 0 0 1.8em 0;
+}
+
+#content #omelette img{
+    border-radius: 10px;
+}
+
+#content #simple p{
+    font-family: 'Young serif', serif;
+    font-size: 35px;
+    margin: 0 0 20px 0;
+}
+
+#content #quick p{
+    font-family: 'Outfit', serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#content #time{
+    margin: 0 0 2em 0;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+#content #time p{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+#content #time ul li .dark{
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+
+#content #time ul li {
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+#content #ingredients{
+    margin: 0 0 3em 0;
+}
+
+#content #ingredients p{
+    font-family: 'Young serif', serif;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+#content #ingredients ul li{
+    font-family: 'Outfit', serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#content #instructions{
+    margin: 0 0 2em 0;
+}
+
+#content #instructions p{
+    font-family: 'Young serif', sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+}
+
+#content #instructions ol{
+    font-family: 'Outfit', sans-serif;
+}
+
+#content #instructions ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#content #instructions ol li{
+    padding-left: 1em;
+    margin: 0 0 0.5em 0;
+}
+
+#content #instructions ol li .word{
+    font-weight: 300;
+}
+
+#content #nutrition p#first{
+    font-family: 'Young serif', sans-serif;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+#content #nutrition p#desc{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin: 0 0 1.8em 0;
+    font-size: 16px;
+}
+
+#content #values ul{
+    width: 25em;
+    margin: 0 2em 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#content #values ul li{
+    font-family: 'Outfit', sans-serif;
+    list-style-type: none;
+}
+
+#content #values ul li.left{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+#content #values ul li.right{
+    color: hsl(332, 51%, 32%);
+    font-weight: 500;
+}
+
+
+#content #values{
+    margin: 0 0 0 0;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(332, 51%, 32%);
+    text-decoration: none; 
+}
+
+.attribution a:hover { 
+    color: hsl(14, 45%, 36%);
+    text-decoration: dotted; 
+}
