@@ -162,7 +162,7 @@ p{
     text-decoration: dotted; 
 }
 
- @media screen and (min-width: 650px)   {
+ @media screen and (min-width: 541px)   {
     #mobile-content{
         display: none;
     }
