@@ -8,7 +8,8 @@ p{
     font-size: 16px;
 }
 
-#content{
+#desktop-content{
+    width: fit-content;
     margin: 0 0 1em 0;
     background-color: white;
     /* border: 1px solid black; */
@@ -16,27 +17,27 @@ p{
     padding: 3.5em;
 }
 
-#content #omelette{
+#desktop-content #omelette{
     margin: 0 0 1.8em 0;
 }
 
-#content #omelette img{
+#desktop-content #omelette img{
     border-radius: 10px;
 }
 
-#content #simple p{
+#desktop-content #simple p{
     font-family: 'Young serif', serif;
     font-size: 35px;
     margin: 0 0 20px 0;
 }
 
-#content #quick p{
+#desktop-content #quick p{
     font-family: 'Outfit', serif;
     font-size: 16px;
     font-weight: 300;
 }
 
-#content #time{
+#desktop-content #time{
     margin: 0 0 2em 0;
     background-color: hsl(330, 100%, 98%);
     padding: 1em;
@@ -44,79 +45,79 @@ p{
     font-weight: 400;
 }
 
-#content #time p{
+#desktop-content #time p{
     color: hsl(332, 51%, 32%);
     font-weight: 600;
 }
 
-#content #time ul li .dark{
+#desktop-content #time ul li .dark{
     font-weight: 600;
     color: hsl(24, 5%, 18%);
 }
 
-#content #time ul li {
+#desktop-content #time ul li {
     font-weight: 400;
     color: hsl(24, 5%, 18%);
 }
 
-#content #ingredients{
+#desktop-content #ingredients{
     margin: 0 0 3em 0;
 }
 
-#content #ingredients p{
+#desktop-content #ingredients p{
     font-family: 'Young serif', serif;
     font-size: 25px;
     color: hsl(14, 45%, 36%);
 }
 
-#content #ingredients ul li{
+#desktop-content #ingredients ul li{
     font-family: 'Outfit', serif;
     font-size: 16px;
     font-weight: 300;
 }
 
-#content #instructions{
+#desktop-content #instructions{
     margin: 0 0 2em 0;
 }
 
-#content #instructions p{
+#desktop-content #instructions p{
     font-family: 'Young serif', sans-serif;
     color: hsl(14, 45%, 36%);
     font-size: 25px;
 }
 
-#content #instructions ol{
+#desktop-content #instructions ol{
     font-family: 'Outfit', sans-serif;
 }
 
-#content #instructions ol li::marker{
+#desktop-content #instructions ol li::marker{
     color: hsl(14, 45%, 36%);
     font-family: 'Outfit', sans-serif;
 }
 
-#content #instructions ol li{
+#desktop-content #instructions ol li{
     padding-left: 1em;
     margin: 0 0 0.5em 0;
 }
 
-#content #instructions ol li .word{
+#desktop-content #instructions ol li .word{
     font-weight: 300;
 }
 
-#content #nutrition p#first{
+#desktop-content #nutrition p#first{
     font-family: 'Young serif', sans-serif;
     font-size: 25px;
     color: hsl(14, 45%, 36%);
 }
 
-#content #nutrition p#desc{
+#desktop-content #nutrition p#desc{
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
     margin: 0 0 1.8em 0;
     font-size: 16px;
 }
 
-#content #values ul{
+#desktop-content #values ul{
     width: 25em;
     margin: 0 2em 1em 0;
     display: flex;
@@ -125,24 +126,24 @@ p{
     align-items: flex-start;
 }
 
-#content #values ul li{
+#desktop-content #values ul li{
     font-family: 'Outfit', sans-serif;
     list-style-type: none;
 }
 
-#content #values ul li.left{
+#desktop-content #values ul li.left{
     font-size: 16px;
     font-weight: 400;
 }
 
 
-#content #values ul li.right{
+#desktop-content #values ul li.right{
     color: hsl(332, 51%, 32%);
     font-weight: 500;
 }
 
 
-#content #values{
+#desktop-content #values{
     margin: 0 0 0 0;
 }
 
@@ -161,8 +162,8 @@ p{
     text-decoration: dotted; 
 }
 
-@media screen and (min-width: 100px)   {
-    #content{
+ @media screen and (min-width: 650px)   {
+    #mobile-content{
         display: none;
     }
-}
+ }
