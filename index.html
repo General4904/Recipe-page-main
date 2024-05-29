@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/mobile_device.css" media="(min-width: 150px) and (max-width: 650px)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
@@ -15,7 +16,8 @@
   <title>Frontend Mentor | Recipe page</title>
 </head>
 <body>
-  <div id="content">
+  <!-- Desktop content -->
+  <div id="desktop-content">
     <div id="omelette">
       <img src="assets/images/image-omelette.jpeg" class="img-fluid" alt="...">
     </div>
@@ -112,9 +114,115 @@
       <hr>
     </div>
   </div>
+
+  <!-- Mobile Content -->
+  <div id="mobile-content">
+    <header>
+      <img src="assets/images/image-omelette.jpeg" alt="" srcset="">
+    </header>
+
+    <div id="simple">
+      <p>Simple Omelette Recipe</p>
+    </div>
+
+    <div id="quick">
+      <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+        to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+    </div>
+
+    <div id="time">
+      <p>Preparation time</p>
+      <ul>
+        <li><span class="dark"> Total</span>: Approximately 10 minutes</li>
+        <li><span class="dark"> Preparation</span>: 5 minutes</li>
+        <li><span class="dark"> Cooking</span>: 5 minutes</li>
+      </ul>
+    </div>
+
+    <div id="ingredients">
+      <p>Ingredients</p>
+      <ul>
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+      </ul>
+    
+      <hr>
+    
+    </div>
+
+    <div id="instructions">
+      <p>Instructions</p>
+    
+      <ol>
+        <li><b>Beat the eggs</b><span class="word">: In a bowl, beat the eggs with a pinch of salt and pepper until they are
+            well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.</span></li>
+    
+        <li><b>Heat the pan</b><span class="word">: Place a non-stick frying pan over medium heat and add butter or oil.
+        </li>
+    
+        <li><b>Cook the omelette</b><span class="word">: Once the butter is melted and bubbling, pour in the eggs. Tilt the
+            pan to ensure
+            the eggs evenly coat the surface.</span></li>
+    
+        <li><b>Add fillings (optional)</b><span class="word">: When the eggs begin to set at the edges but are still
+            slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.</span></li>
+    
+        <li><b>Fold and serve</b><span class="word">: As the omelette continues to cook, carefully lift one edge and fold it
+            over the
+            fillings. Let it cook for another minute, then slide it onto a plate.</span></li>
+    
+        <li><b>Enjoy</b><span class="word">: Serve hot, with additional salt and pepper if needed.</span></li>
+      </ol>
+    
+      <hr>
+    
+    </div>
+
+    <div id="nutrition">
+      <p id="first">Nutrition</p>
+      <p id="desc">The table below shows nutritional value per serving without additional fillings.</p>
+    </div>
+
+    <div id="values">
+      <ul>
+        <li class="left">Calories</li>
+        <li class="right">277kcal</li>
+      </ul>
+    
+      <hr>
+    
+      <ul>
+        <li class="left">Carbs</li>
+        <li class="right">0g</li>
+      </ul>
+    
+      <hr>
+    
+      <ul>
+        <li class="left">Protein</li>
+        <li class="right">20g</li>
+      </ul>
+    
+      <hr>
+    
+      <ul>
+        <li class="left">Fat</li>
+        <li class="right">22g</li>
+      </ul>
+    
+      <hr>
+    </div>
+  </div>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Generalissimo</a>.
   </div>
+
 </body>
 </html>

@@ -1,0 +1,141 @@
+/* Mobile Styles */
+#desktop-content {
+    display: none;
+}
+
+body{
+    padding: 0;
+    background-color: white;
+}
+
+#mobile-content header img {
+    width: fit-content;
+    height: 10em;
+}
+
+#mobile-content #simple p {
+    font-family: 'Young serif', sans-serif;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+#mobile-content #quick p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#mobile-content #time {
+    margin: 0 0 2em 0;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+#mobile-content #time p {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+#mobile-content #time ul li .dark {
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+
+#mobile-content #time ul li {
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+#mobile-content #ingredients {
+    margin: 0 0 3em 0;
+}
+
+#mobile-content #ingredients p {
+    font-family: 'Young serif', serif;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+#mobile-content #ingredients ul li {
+    font-family: 'Outfit', serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#mobile-content #instructions {
+    margin: 0 0 2em 0;
+}
+
+#mobile-content #instructions p {
+    font-family: 'Young serif', sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+}
+
+#mobile-content #instructions ol {
+    font-family: 'Outfit', sans-serif;
+}
+
+#mobile-content #instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#mobile-content #instructions ol li {
+    padding-left: 1em;
+    margin: 0 0 0.5em 0;
+}
+
+#mobile-content #instructions ol li .word {
+    font-weight: 300;
+}
+
+#mobile-content #nutrition p#first{
+    font-family: 'Young serif', sans-serif;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+#mobile-content #nutrition p#desc{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin: 0 0 1.8em 0;
+    font-size: 16px;
+}
+
+#desktop-content #values ul {
+    width: 25em;
+    margin: 0 2em 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#desktop-content #values ul li {
+    font-family: 'Outfit', sans-serif;
+    list-style-type: none;
+}
+
+#desktop-content #values ul li.left {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+#desktop-content #values ul li.right {
+    color: hsl(332, 51%, 32%);
+    font-weight: 500;
+}
+
+
+#desktop-content #values {
+    margin: 0 0 0 0;
+}
+
+.attribution{
+    font-size: 8px;
+    text-align: center;
+}
